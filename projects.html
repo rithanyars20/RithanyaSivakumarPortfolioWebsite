@@ -45,13 +45,31 @@
 							<!-- Experience Navigation -->
 							<nav>
 								<ul>
+									<li><a href="#port">Port Congestion Data Pipeline: End-to-end data pipeline for analyzing global port congestion trends</a></li>
 									<li><a href="#moodplay">MoodPlay: an AI-Powered Mood-Based Music Playlist Generator</a></li>
 									<li><a href="#amongus">Among Us Swiping Card Game</a></li>
 									<li><a href="#datastruct">Analysis of Data Structures and Algorithms</a></li>
 								</ul>
 							</nav>
 
-							<!-- Spritle Experience -->
+							<!-- Projects -->
+							<article id="moodplay">
+								<h2 class="major">Port Congestion Data Pipeline: End-to-end data pipeline for analyzing global port congestion trends</h2>
+								</header>
+								
+								<p><strong>Skills:</strong>  Python, DuckDB, SQL, dbt, GitHub Actions </p>
+								<p><strong>Description:</strong></p>
+									<ul>
+										<li>Built and maintained an end-to-end data pipeline using Python and IMF PortWatch AIS shipping data, ingesting
+										global port activity into DuckDB and transforming raw data into analysis-ready datasets.</li>
+										<li>Developed dbt SQL models to standardize source data, transform daily activity into weekly metrics, and compare port
+										arrivals against a rolling four-week historical baseline to identify unusual activity.</li>
+										<li>Implemented data-quality tests for null values, negative ship counts, duplicate port/date records, and invalid identifiers;
+										investigated and resolved source-data parsing issues caused by quoted commas.</li>
+										<li>Automated recurring pipeline execution using GitHub Actions on Ubuntu Linux, refreshing analytical datasets
+										and exporting version-controlled results for downstream analysis and reporting.</li>
+									</ul> 
+							</article>
 							<article id="moodplay">
 								<h2 class="major">MoodPlay: an AI-Powered Mood-Based Music Playlist Generator</h2>
 								</header>
